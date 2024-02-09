@@ -46,6 +46,9 @@ vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 vim.keymap.set("n", "<leader>nt", "<cmd>tabnew %<CR>");
 vim.keymap.set("n", "<leader>nn", "<cmd>tabnext<CR>");
 
+-- Symbols Outline
+vim.keymap.set("n", "<leader>so", "<cmd>SymbolsOutline<CR>");
+
 vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/theprimeagen/packer.lua<CR>");
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 vim.keymap.set('n', '<leader>lg', ':LazyGit<CR>', {silent = true, noremap = true});

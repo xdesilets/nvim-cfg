@@ -78,4 +78,6 @@ use({
         "nvim-lua/plenary.nvim",
     },
 })
+
+use 'simrat39/symbols-outline.nvim'
 end)
