@@ -48,6 +48,7 @@ vim.keymap.set("n", "gD", "<c-w><c-]><c-w>T")
 -- tab remaps
 vim.keymap.set("n", "<leader>nt", "<cmd>tabnew %<CR>");
 vim.keymap.set("n", "<leader>nn", "<cmd>tabnext<CR>");
+vim.keymap.set("n", "<leader>nN", "<cmd>tabprevious<CR>");
 
 -- Symbols Outline
 vim.keymap.set("n", "<leader>so", "<cmd>SymbolsOutline<CR>");
