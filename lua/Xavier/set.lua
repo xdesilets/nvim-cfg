@@ -1,5 +1,4 @@
 -- vim.opt.guicursor = ""
-
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -29,3 +28,9 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 
+vim.o.list = true
+-- Define special characters display
+vim.opt.listchars = {
+    tab = "» ",   -- Tab character
+    space = "·" -- Whitespace character
+}
