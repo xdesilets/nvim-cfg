@@ -94,4 +94,5 @@ use {
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
 use { "nvim-neotest/nvim-nio" }
+use { "tpope/vim-fugitive" }
 end)
