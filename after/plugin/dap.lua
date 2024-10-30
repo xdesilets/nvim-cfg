@@ -1,4 +1,7 @@
 require("dapui").setup()
+local python_path = vim.fn.system("which python")
+require("dap-python").setup(python_path)
+--Do pip install debugpy in your python environment
 
 local dap, dapui = require("dap"), require("dapui")
 

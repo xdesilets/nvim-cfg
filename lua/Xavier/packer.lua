@@ -81,6 +81,8 @@ use({
 
 use 'simrat39/symbols-outline.nvim'
 
+use 'mfussenegger/nvim-dap-python'
+
 use({
 	"L3MON4D3/LuaSnip",
 	-- follow latest release.
